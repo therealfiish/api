@@ -4,6 +4,8 @@
 
 This API lets you keep track of your assignments (and I guess everyone else's). 
 
+Currently hosted on `https://krrishk.hackclub.app/`.
+
 ## How to Input Assignments
 
 There are two ways to input assignments into the API:
@@ -42,16 +44,6 @@ There are multiple ways to check your assignments:
 
 2. **By class name**  
    Send a GET request to the route `/byclass`.
-
----
-
-## How to Delete an Assignment
-
-To delete an assignment, send a GET request to the following route:
-```
-/delete/n
-```
-Where `n` is the assignment number you wish to delete.
 
 ---
 
